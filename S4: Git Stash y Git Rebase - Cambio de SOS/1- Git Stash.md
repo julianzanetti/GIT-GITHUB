@@ -32,3 +32,4 @@ git stash pop
 ```
 git stash clear
 ```
+![image](https://github.com/user-attachments/assets/31d8c859-54cf-4c24-aacf-a0937ed7c28b)
