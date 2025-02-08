@@ -27,3 +27,8 @@ git stash pop
 ![image](https://github.com/user-attachments/assets/303bf71c-d2f3-475f-9293-8969f91f3e32)
 ![image](https://github.com/user-attachments/assets/29cb2611-d8d0-480f-a64f-f73612756998)
 ![image](https://github.com/user-attachments/assets/cf07cd7d-1ee4-49d4-8b15-65d66bbd0ad5)
+
+## Eliminar todos los stash que tengamos.
+```
+git stash clear
+```
