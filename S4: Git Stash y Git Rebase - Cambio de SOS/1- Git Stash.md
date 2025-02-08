@@ -33,3 +33,23 @@ git stash pop
 git stash clear
 ```
 ![image](https://github.com/user-attachments/assets/31d8c859-54cf-4c24-aacf-a0937ed7c28b)
+
+## Recuperar un stash especifico.
+```
+git stash apply [<stash>]
+```
+![image](https://github.com/user-attachments/assets/9684d2b2-7b87-42eb-83ba-b8e9d11cc461)
+> [!NOTE]
+> Como vemos si agregamos uno, este no se borra automaticamente.
+
+## Borrar un stash especifico.
+```
+git stash drop [<stash>]
+```
+![image](https://github.com/user-attachments/assets/7cce5225-8702-49b7-9406-0d6383af3fc1)
+
+## Guardar un stash con descripcion.
+```
+git stash save "Ejemplo de stash"
+```
+![image](https://github.com/user-attachments/assets/320b57bc-cbcd-4c34-90ce-205a61b59e7c)
