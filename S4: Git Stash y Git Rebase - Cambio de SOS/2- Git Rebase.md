@@ -49,3 +49,33 @@ git rebase -i HEAD~4
 ![image](https://github.com/user-attachments/assets/be6907fd-23f7-4a2c-92c5-f0a7b677f620)
 
 - Modificamos el comentario o nombre de los commits anteriores.
+
+## Ejemplo 3 para el uso del rebase (edit).
+![image](https://github.com/user-attachments/assets/40b71986-6d4d-429e-b6a0-4c9802cd1dea)
+
+- Supongamos que editamos estos archivos, pero despues nos damos cuenta que uno de ellos no tenia que ser modificado y necesitamos volver para atras la edicion.
+```
+git checkout -- README.md
+```
+![image](https://github.com/user-attachments/assets/9b96ea93-5da9-4e38-98c2-a9dc78faed46)
+![image](https://github.com/user-attachments/assets/6a324172-1c6d-474a-ba76-7be3ae07c6bd)
+
+- Realizamos el commit pero vemos que el nombre no indica nada y modificamos dos archivos que podrian ser dos commits distintos.
+
+### Usamos el comando rebase -i
+```
+git rebase -i HEAD~4
+```
+![image](https://github.com/user-attachments/assets/290028ba-1892-4234-80b7-3fc06082348a)
+![image](https://github.com/user-attachments/assets/deca818e-443d-43d5-986c-2b8787499100)
+
+```
+git reset HEAD^
+```
+![image](https://github.com/user-attachments/assets/d1c08359-7f29-4546-a9a6-7ba8f6d77d3d)
+![image](https://github.com/user-attachments/assets/71e25b8e-ffb0-4afd-84f3-85cfdb3ddc79)
+
+```
+git rebase --continue
+```
+![image](https://github.com/user-attachments/assets/c27996f9-f19c-4904-97d9-73295635376a)
