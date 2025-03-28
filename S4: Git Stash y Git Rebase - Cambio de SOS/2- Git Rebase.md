@@ -34,3 +34,18 @@ git rebase -i HEAD~4
 ![image](https://github.com/user-attachments/assets/da7a1977-e314-4047-8e04-62383e1ddd01)
 
 - Vemos que se unificaron los dos commit y quedo guardada la ultima modificacion hecha.
+
+## Ejemplo 3 para el uso del rebase (reword).
+![image](https://github.com/user-attachments/assets/2628dbc2-8b41-47d8-96a3-f52c45ef0446)
+
+- Supongamos que no nos gusta los nombres o comentarios de alguno de estos commits
+
+### Usamos el comando rebase -i
+```
+git rebase -i HEAD~4
+```
+![image](https://github.com/user-attachments/assets/985893df-dae1-4186-80e0-3e9e8b1fa162)
+![image](https://github.com/user-attachments/assets/fabf7f9b-bf95-4862-9d41-cf9e946a1d29)
+![image](https://github.com/user-attachments/assets/be6907fd-23f7-4a2c-92c5-f0a7b677f620)
+
+- Modificamos el comentario o nombre de los commits anteriores.
