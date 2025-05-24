@@ -4,7 +4,7 @@
 2. [Guardar nuestro Usuario y Contraseña de GitHub](https://docs.github.com/en/get-started/git-basics/caching-your-github-credentials-in-git#platform-linux)
 3. Realizar la conexion a nuestro repo creado.
 ```
-git remote add origin **`(link del Repo)`**
+git remote add origin (link del Repo)
 ```
 
 4. Realizar el commit.
