@@ -27,3 +27,8 @@ git tag
 ```
 git push tags
 ```
+
+## Ver nuestras conexiones remotas.
+```
+git remote -v
+```
