@@ -1,4 +1,4 @@
-# Tarea práctica #1 Fundamento de Git.
+# Tarea práctica - Fundamento de Git.
 ## Cree una carpeta llamada tarea01.
 ![image](https://github.com/user-attachments/assets/02e4cfb0-3d6e-44d1-a41d-a5a403e43d88)
 
