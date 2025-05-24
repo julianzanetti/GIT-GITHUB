@@ -32,3 +32,8 @@ git push tags
 ```
 git remote -v
 ```
+
+## Revisar las modificaciones hechas en Github antes de hacer un pull.
+```
+git fetch
+```
